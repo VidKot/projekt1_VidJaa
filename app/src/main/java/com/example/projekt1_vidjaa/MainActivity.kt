@@ -16,7 +16,7 @@ import com.example.projekt1_vidjaa.ui.theme.Projekt1_VidJašaTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        enableEdgeToEdge() 
         setContent {
             Projekt1_VidJašaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
